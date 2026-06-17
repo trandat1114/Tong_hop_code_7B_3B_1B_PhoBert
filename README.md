@@ -331,12 +331,12 @@ Kết quả lưu tại:
 
 ### 9.3 Lý do PhoBERT vượt trội LLM
 
-| Yếu tố | PhoBERT | LLM (Qwen2.5) |
-|--------|---------|---------------|
-| Kiến trúc | Encoder-only (BERT) — tối ưu cho classification | Decoder-only — thiết kế để sinh văn bản |
-| Fine-tuning | **100% params** cập nhật | Chỉ **0.92–3.5%** qua LoRA |
-| Ngôn ngữ | Pre-trained chuyên biệt **tiếng Việt** | Đa ngôn ngữ, tiếng Việt chiếm tỷ lệ nhỏ |
-| Quantization | Full precision | **4-bit NF4** — mất độ chính xác weights |
+| Yếu tố        | PhoBERT | LLM (Qwen2.5) |
+|---------------|---------|---------------|
+| Kiến trúc     | Encoder-only (BERT) — tối ưu cho classification | Decoder-only — thiết kế để sinh văn bản |
+| Fine-tuning   | **100% params** cập nhật | Chỉ **0.92–3.5%** qua LoRA |
+| Ngôn ngữ      | Pre-trained chuyên biệt **tiếng Việt** | Đa ngôn ngữ, tiếng Việt chiếm tỷ lệ nhỏ |
+| Quantization  | Full precision | **4-bit NF4** — mất độ chính xác weights |
 | Số bước train | Nhiều hơn (model nhỏ → nhanh/bước) | Ít bước hơn trong cùng thời gian |
 
 ### 9.4 Biểu đồ so sánh

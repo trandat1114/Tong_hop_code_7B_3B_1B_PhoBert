@@ -1,0 +1,45 @@
+# ============================================================
+# requirements.txt — Phát hiện Ngôn ngữ Độc hại Tiếng Việt
+# Test trên: Python 3.12, CUDA 13.0, RTX 4060 Laptop 8GB
+# Cài đặt:  pip install -r requirements.txt
+# ============================================================
+
+# ── Core Deep Learning ────────────────────────────────────────
+torch==2.12.0
+torchao==0.17.0
+triton==3.7.0
+xformers==0.0.35
+
+# ── Hugging Face Ecosystem ────────────────────────────────────
+transformers==5.5.0
+tokenizers==0.22.2
+datasets==4.3.0
+huggingface_hub==1.19.0
+safetensors==0.8.0
+sentencepiece==0.2.1
+
+# ── Fine-tuning & LoRA ────────────────────────────────────────
+peft==0.19.1
+trl==0.24.0
+accelerate==1.14.0
+bitsandbytes==0.49.2
+
+# ── Unsloth (tăng tốc 2× cho LLM) ────────────────────────────
+# Cài từ PyPI (khuyên dùng):
+#   pip install unsloth
+# Hoặc bản đang dùng (từ git commit cụ thể):
+#   pip install "unsloth @ git+https://github.com/unslothai/unsloth.git@9beefcaf7ca394f20339d9be850051067902577b"
+unsloth_zoo==2026.6.5
+
+# ── Data & Metrics ────────────────────────────────────────────
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+scipy==1.17.1
+
+# ── Visualization ─────────────────────────────────────────────
+matplotlib==3.11.0
+
+# ── Utilities ─────────────────────────────────────────────────
+tqdm==4.68.2
+regex==2026.5.9
