@@ -27,7 +27,7 @@ except ImportError:
     pass
 
 BASE_DIR  = Path(__file__).resolve().parent.parent
-DATA_DIR  = BASE_DIR.parent / "ModelLLM_v3" / "Cleaned"
+DATA_DIR  = BASE_DIR / "Cleaned"
 LOG_DIR   = BASE_DIR / "logs"
 LOG_DIR.mkdir(exist_ok=True)
 

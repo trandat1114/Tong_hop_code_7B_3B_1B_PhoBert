@@ -22,7 +22,7 @@ from datetime import datetime
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
 BASE_DIR   = Path(__file__).resolve().parent.parent
-DATA_DIR   = BASE_DIR.parent / "ModelLLM_v3" / "Cleaned"
+DATA_DIR   = BASE_DIR / "Cleaned"
 OUTPUT_DIR = BASE_DIR / "models" / "llm_1_5b" / "lora_adapter"
 LOG_DIR    = BASE_DIR / "logs"
 LOG_DIR.mkdir(exist_ok=True)
