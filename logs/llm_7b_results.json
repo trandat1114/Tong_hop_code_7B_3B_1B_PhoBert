@@ -1,0 +1,37 @@
+{
+  "model_id": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+  "model_size": "7b",
+  "timestamp": "2026-06-17T02:31:34.465903",
+  "train_minutes": 84.7,
+  "accuracy": 0.6458,
+  "f1_macro": 0.4244,
+  "f1_per_class": [
+    0.8103,
+    0.2623,
+    0.2005
+  ],
+  "cm": [
+    [
+      3789,
+      1676,
+      21
+    ],
+    [
+      38,
+      406,
+      0
+    ],
+    [
+      39,
+      570,
+      79
+    ]
+  ],
+  "speed_sps": 1.6,
+  "params_b": 7.62,
+  "trainable_pct": 0.92,
+  "lora_rank": 16,
+  "epochs_config": 2,
+  "time_limited": true,
+  "test_samples": 6618
+}

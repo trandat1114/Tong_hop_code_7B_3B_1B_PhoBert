@@ -1,0 +1,37 @@
+{
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_size": "1.5b",
+  "timestamp": "2026-06-16T19:36:16.327596",
+  "train_minutes": 85.1,
+  "accuracy": 0.728,
+  "f1_macro": 0.5103,
+  "f1_per_class": [
+    0.8572,
+    0.3053,
+    0.3684
+  ],
+  "cm": [
+    [
+      4296,
+      1083,
+      107
+    ],
+    [
+      86,
+      338,
+      20
+    ],
+    [
+      155,
+      349,
+      184
+    ]
+  ],
+  "speed_sps": 3.7,
+  "params_b": 1.54,
+  "trainable_pct": 3.5,
+  "lora_rank": 32,
+  "epochs_config": 3,
+  "time_limited": true,
+  "test_samples": 6618
+}
