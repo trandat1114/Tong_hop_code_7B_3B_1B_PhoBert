@@ -1,0 +1,36 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "model_size": "3b_cls_v3",
+  "timestamp": "2026-06-18T19:54:25.483609",
+  "accuracy": 0.81883,
+  "f1_macro": 0.56225,
+  "f1_per_class": [
+    0.90432,
+    0.29967,
+    0.48276
+  ],
+  "cm": [
+    [
+      4948,
+      227,
+      311
+    ],
+    [
+      252,
+      135,
+      57
+    ],
+    [
+      257,
+      95,
+      336
+    ]
+  ],
+  "speed_sps": 12.4,
+  "params_b": 3.09,
+  "lora_rank": 64,
+  "trainable_pct": 3.74,
+  "time_limited": false,
+  "total_steps": 1061,
+  "test_samples": 6618
+}

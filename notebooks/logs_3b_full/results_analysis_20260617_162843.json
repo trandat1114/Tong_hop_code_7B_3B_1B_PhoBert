@@ -1,0 +1,61 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "model_size": "3b_cls_v3",
+  "timestamp": "2026-06-18T19:54:25.483609",
+  "checkpoint": "/home/trandat1114/dev/Năm 2026/Học UIT HCM/Môn kỹ thuật lập trình Ai/Tong_hop_code_7B_1B_PhoBert/models/llm_3b_cls/checkpoint_latest",
+  "training_steps": 1061,
+  "training_epochs_done": 2,
+  "samples_seen": 8494,
+  "lora_rank": 64,
+  "quantization": "bfloat16",
+  "val_f1": 0.46909,
+  "val_acc": 0.63917,
+  "val_f1_per_class": [
+    0.77066,
+    0.2681,
+    0.3685
+  ],
+  "accuracy": 0.81883,
+  "f1_macro": 0.56225,
+  "f1_per_class": [
+    0.90432,
+    0.29967,
+    0.48276
+  ],
+  "f1_macro_no_bias": 0.46827,
+  "f1_per_class_no_bias": [
+    0.76184,
+    0.27839,
+    0.36457
+  ],
+  "logit_bias": [
+    0.0,
+    -0.5,
+    -1.5
+  ],
+  "f1_macro_with_bias": 0.56225,
+  "f1_per_class_with_bias": [
+    0.90432,
+    0.29967,
+    0.48276
+  ],
+  "cm": [
+    [
+      4948,
+      227,
+      311
+    ],
+    [
+      252,
+      135,
+      57
+    ],
+    [
+      257,
+      95,
+      336
+    ]
+  ],
+  "speed_sps": 12.4,
+  "test_samples": 6618
+}

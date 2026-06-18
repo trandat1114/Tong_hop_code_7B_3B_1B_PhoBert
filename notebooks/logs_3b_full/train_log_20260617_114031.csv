@@ -1,0 +1,1 @@
+epoch,step,loss,focal,margin,rdrop_kl,supcon,lr,samples_seen,elapsed_s

@@ -399,3 +399,7 @@ Paradigm B: Giữ SFT (generation)
 ---
 
 *Tài liệu tạo: 17/06/2026 — tổng hợp từ phân tích kỹ thuật PhoBERT vs LLM, classification head, class imbalance, và tối ưu training.*
+
+
+cd "/home/trandat1114/dev/Năm 2026/Học UIT HCM/Môn kỹ thuật lập trình Ai/Tong_hop_code_7B_1B_PhoBert"
+bash run_3b_full.sh --resume
